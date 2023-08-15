@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -9,21 +10,22 @@
   scroll-behavior: smooth;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-body{
-  font-family: sans-serif;
+body {
+  font-family: 'Inter';
 }
 
-
-.container{
+.container {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
 }
+
+
