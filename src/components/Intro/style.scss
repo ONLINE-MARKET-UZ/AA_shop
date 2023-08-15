@@ -1,0 +1,9 @@
+.bg_img{
+    background-image: url('https://picsum.photos/seed/picsum/664/373');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.linear{
+    background: var(--primary-gradient, linear-gradient(180deg, #127FFF 0%, #0067FF 100%));
+}
