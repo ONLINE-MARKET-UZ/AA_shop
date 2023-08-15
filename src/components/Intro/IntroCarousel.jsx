@@ -14,14 +14,64 @@ const IntroCarousel = () => {
   const onChange = (currentSlide) => {
     console.log(currentSlide);
   };
-
   return (
     <>
-      <div className="bg_img w-[664px] h-[373px] px-[44px] py-[56px]">
+      <div className="w-[664px] h-[373px]">
+        <Carousel className="" afterChange={onChange}>
+          <div>
+            <div className="bg_img w-[664px] h-[373px]  px-[44px] py-[56px]">
+              <p className="text-[28px] ">Latest trending</p>
+              <h1 className="text-[32px] font-bold mb-[17px]">
+                Electronic items
+              </h1>
+              <button className="bg-white px-4 h-[40px] text-[16px] rounded-md font-medium">
+                Learn more
+              </button>
+            </div>
+          </div>
+          <div>
+            <div className="bg_img w-[664px] h-[373px]  px-[44px] py-[56px]">
+              <p className="text-[28px] ">Latest trending</p>
+              <h1 className="text-[32px] font-bold mb-[17px]">
+                Electronic items
+              </h1>
+              <button className="bg-white px-4 h-[40px] text-[16px] rounded-md font-medium">
+                Learn more
+              </button>
+            </div>
+          </div>
+          <div>
+            <div className="bg_img w-[664px] h-[373px]  px-[44px] py-[56px]">
+              <p className="text-[28px] ">Latest trending</p>
+              <h1 className="text-[32px] font-bold mb-[17px]">
+                Electronic items
+              </h1>
+              <button className="bg-white px-4 h-[40px] text-[16px] rounded-md font-medium">
+                Learn more
+              </button>
+            </div>
+          </div>
+          <div>
+            <div className="bg_img w-[664px] h-[373px]  px-[44px] py-[56px]">
+              <p className="text-[28px] ">Latest trending</p>
+              <h1 className="text-[32px] font-bold mb-[17px]">
+                Electronic items
+              </h1>
+              <button className="bg-white px-4 h-[40px] text-[16px] rounded-md font-medium">
+                Learn more
+              </button>
+            </div>
+          </div>
+        </Carousel>
+      </div>
+
+      {/* <div className="">
         <p className="text-[28px] ">Latest trending</p>
         <h1 className="text-[32px] font-bold mb-[17px]">Electronic items</h1>
-        <button className="bg-white px-4 h-[40px] text-[16px] rounded-md font-medium">Learn more</button>
-      </div>
+        <button className="bg-white px-4 h-[40px] text-[16px] rounded-md font-medium">
+          Learn more
+        </button>
+      </div> */}
     </>
   );
 };

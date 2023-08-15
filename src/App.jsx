@@ -7,6 +7,7 @@ import OrderForm from "./components/OrderForm";
 import Layout from "./components/Layout";
 // import FullCard from './components/UI/Cards/FullCard';
 // import MultiCard from "./components/UI/Cards/MultiCard";
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
       <Offers />
       <OrderForm />
       <Layout />
+
+      <Footer />
     </>
   );
 };
